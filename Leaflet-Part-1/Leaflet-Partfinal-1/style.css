@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+}
+
+/* Legend styling */
+.legend {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute; 
+  bottom: 30px;
+  right: 30px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.legend span {
+  padding-left: 20px; 
+}
